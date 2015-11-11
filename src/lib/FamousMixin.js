@@ -2,7 +2,7 @@ import isEqual from 'lodash/lang/isEqual';
 import isFunction from 'lodash/lang/isFunction';
 import values from 'lodash/object/values';
 import React from 'react';
-import shallowEqual from 'react/lib/shallowEqual';
+import shallowEqual from 'fbjs/lib/shallowEqual';
 
 import FamousNodeMixin from './FamousNodeMixin';
 import FamousScheduler from './FamousScheduler';
